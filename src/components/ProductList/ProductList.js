@@ -7,9 +7,9 @@ const ProductList = ({ products }) => {
         <div>
             <div className="row product">
               {products.map(product => (
-                  <l key={product.id} className="col-sm-4">
+                  <list_i key={product.id} className="col-sm-4">
                     <Product {...product} />
-                  </l>
+                  </list_i>
               ))}
             </div>
         </div>
