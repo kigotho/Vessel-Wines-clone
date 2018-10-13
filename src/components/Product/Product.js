@@ -52,13 +52,14 @@ constructor(){
     }
 
     render() {
-        const { name, bottle_price, case_price, currency, image, isInCart} = this.props;
+        const { name, bottle_price, case_price, currency, image, isInCart,number} = this.props;
 
         return (
             <div className="row">
                 <div className="col-sm-1"></div>
                 <div className="col-sm-3"><img src={image} alt="product" /></div>
                 <div className="col-sm-8">
+                    <h2>{number}</h2>
                     <h3>{name}</h3>
                     <div className="row">
                     <div className="col-sm-6">{bottle_price} {currency}</div>
@@ -90,7 +91,7 @@ Product.propTypes = {
     case_price: PropTypes.number,
     bottle_price: PropTypes.number,
     currency: PropTypes.string,
-    amount: PropTypes.string,
+    number: PropTypes.string,
     image: PropTypes.string,
     isInCart: PropTypes.bool.isRequired,
     addToCart: PropTypes.func.isRequired,

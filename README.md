@@ -1,4 +1,4 @@
-#documentation and Installation
+# Documentation and Installation
 
 # react.js shopping cart
 
@@ -13,3 +13,4 @@ npm install
 npm start
 ```
 
+Open index.html file iin your localhost
