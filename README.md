@@ -13,4 +13,4 @@ npm install
 npm start
 ```
 
-Open index.html file iin your localhost
+Open index.html file in your server
