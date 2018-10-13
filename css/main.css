@@ -1,0 +1,19 @@
+#top{
+}
+#top hr{
+    width: 100%;
+}
+#top .hr_bold{
+    width: 65%;
+    height: 10px;
+    background-color: #333;
+}
+#top img{
+    width: 100%;
+}
+.pull-left{
+    float: left;
+}
+.medal{
+    width: 36px;
+}
