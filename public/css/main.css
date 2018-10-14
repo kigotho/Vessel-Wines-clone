@@ -1,0 +1,114 @@
+container{
+    max-width: 1280px;
+}
+body{
+    background-color:#f2f2ed!important;
+}
+#top{
+    margin-top: 90px;
+}
+#top img{
+    width: 100%;
+}
+#top hr{
+    width: 100%;
+}
+#top .hr_bold{
+    width: 75.3%;
+    height: 10px;
+    background-color: #333;
+    float: right;
+    margin-left: 23.5%;
+}
+#top .hr_lower{
+    margin-top: -20px;
+    width: 97.7%;
+}
+#top .first{
+    min-width: 255px !important;
+}
+#top .col-sm-2 {
+    min-width: 220px;
+}
+#quick .offset-sm-2{
+    margin-left: 253px;
+}
+.btn-2{
+    
+}
+hr{
+    border-top: 2px solid #aeadad !important;
+}
+.pull-left{
+    float: left;
+}
+.medal{
+    width: 36px;
+}
+input{
+    width: 30px;
+    height: 30px;
+}
+.cls .col-sm-6{
+    margin: 10px 0;
+}
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+ color: #000 !important;
+background-color: #e7e8e3 !important;
+}
+#exTab1 .tab-content {
+    color: #090101;
+    background-color: #e7e8e3;
+    padding: 5px 15px;
+}
+.a4{
+margin-left: 48% !important;    
+}
+a {
+    color: #000 !important;
+    text-decoration: none;
+}
+#root .col-sm-8 .sm-8{
+    background-color: #e7e8e3;
+    margin-top: 5.5%;
+}
+.inf{
+    margin: 59px 0 10px;
+}
+.empty-btn{
+margin: 36px 0;
+    
+}
+.product .col-sm-4 {
+    margin: 36px 0;
+}
